@@ -19,21 +19,15 @@ Retrieve the list of [chatMessageHostedContent](../resources/chatmessagehostedco
 
 ### Permissions for channel
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| ChannelMessage.Read.All, Group.Read.All**, Group.ReadWrite.All** |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| ChannelMessage.Read.Group, ChannelMessage.Read.All, Group.Read.All**, Group.ReadWrite.All** |
+<!-- { "blockType": "permissions", "name": "chatmessage_list_hostedcontents" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessage-list-hostedcontents-permissions.md)]
 
 > **Note**: Permissions marked with ** are supported only for backward compatibility. We recommend that you update your solutions to use an alternative permission listed in the previous table and avoid using these permissions going forward.
 
 ### Permissions for chat
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| Chat.Read, Chat.ReadWrite|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| ChatMessage.Read.Chat, Chat.Read.All, Chat.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "chatmessage_list_hostedcontents_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessage-list-hostedcontents-2-permissions.md)]
 
 > **Note**: The _ChannelMessage.Read.Group_ and _ChatMessage.Read.Chat_ permissions use [resource-specific consent]( https://aka.ms/teams-rsc).
 

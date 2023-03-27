@@ -20,23 +20,17 @@ Only use PUT for this operation.
 > **Note**:  When updating the **user** photo, this operation first attempts to update the photo in Microsoft 365. If that fails (due to the user not having a mailbox), this API will attempt to update the photo in Azure Active Directory.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission or permissions marked as least privileged for this API. Use a higher privileged permission or permissions [only if your app requires it](/graph/permissions-overview#best-practices-for-using-microsoft-graph-permissions). For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
 ### To update the profile photo of a contact
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)      |   Contacts.ReadWrite           |
-|Delegated (personal Microsoft account)      |   Not supported.            |
-|Application      |    Contacts.ReadWrite           |
+<!-- { "blockType": "permissions", "name": "profilephoto_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-permissions.md)]
 
 ### To update the profile photo of a group
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)      |   Group.ReadWrite.All           |
-|Delegated (personal Microsoft account)      |   Not supported.            |
-|Application      |    Group.ReadWrite.All           |
+<!-- { "blockType": "permissions", "name": "profilephoto_update_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-2-permissions.md)]
 
 ### To update the profile photo of a team
 

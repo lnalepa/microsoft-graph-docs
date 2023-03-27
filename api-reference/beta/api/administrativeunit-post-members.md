@@ -18,14 +18,11 @@ Use this API to add a member (user, group, or device) to an administrative unit 
 **Note:** Currently, it's only possible to add one member at a time to an administrative unit.`
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission or permissions marked as least privileged for this API. Use a higher privileged permission or permissions [only if your app requires it](/graph/permissions-overview#best-practices-for-using-microsoft-graph-permissions). For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
 ### Permissions to add an existing user, group, or device
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | AdministrativeUnit.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | AdministrativeUnit.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "administrativeunit_post_members" } -->
+[!INCLUDE [permissions-table](../includes/permissions/administrativeunit-post-members-permissions.md)]
 
 To add a user, group, or device to an administrative unit, the calling principal must be assigned one of the following [Azure AD roles](/azure/active-directory/roles/permissions-reference):
 
@@ -33,11 +30,8 @@ To add a user, group, or device to an administrative unit, the calling principal
 * Global Administrator
 
 ### Permissions to create a new group
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "administrativeunit_post_members_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/administrativeunit-post-members-2-permissions.md)]
 
 To create a new group in an administrative unit, the calling principal must be assigned one of the following [Azure AD roles](/azure/active-directory/roles/permissions-reference):
 

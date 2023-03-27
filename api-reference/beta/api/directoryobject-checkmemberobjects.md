@@ -17,55 +17,37 @@ Check for membership in a list of group IDs, administrative unit IDs, or directo
 
 ## Permissions
 
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission or permissions marked as least privileged for this API. Use a higher privileged permission or permissions [only if your app requires it](/graph/permissions-overview#best-practices-for-using-microsoft-graph-permissions). For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
 ### Memberships for a directory object
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.Read.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_checkmemberobjects" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-checkmemberobjects-permissions.md)]
 
 ### Memberships for a user
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read, User.Read.All, Directory.Read.All, User.ReadWrite.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.Read.All, Directory.Read.All, User.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_checkmemberobjects_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-checkmemberobjects-2-permissions.md)]
 
 ### Memberships for a group
 
-| Permission type                        | Permissions (from least to most privileged)                                                 |
-| :------------------------------------- | :------------------------------------------------------------------------------------------ |
-| Delegated (work or school account)     | GroupMember.Read.All, Group.Read.All, Directory.Read.All, Group.ReadWrite.All, Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                                                                              |
-| Application                            | GroupMember.Read.All, Group.Read.All, Directory.Read.All, Group.ReadWrite.All, Directory.ReadWrite.All                             |
+<!-- { "blockType": "permissions", "name": "directoryobject_checkmemberobjects_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-checkmemberobjects-3-permissions.md)]
 
 ### Memberships for a service principal
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.Read.All, Directory.Read.All, Application.ReadWrite.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.Read.All, Directory.Read.All, Application.ReadWrite.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_checkmemberobjects_4" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-checkmemberobjects-4-permissions.md)]
 
 ### Memberships for an organizational contact
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_checkmemberobjects_5" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-checkmemberobjects-5-permissions.md)]
 
 ### Memberships for a device
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Device.Read.All, Directory.Read.All, Directory.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Device.Read.All, Device.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_checkmemberobjects_6" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-checkmemberobjects-6-permissions.md)]
 
 
 ## HTTP request

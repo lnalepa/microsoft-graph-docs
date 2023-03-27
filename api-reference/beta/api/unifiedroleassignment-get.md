@@ -21,19 +21,13 @@ Depending on the RBAC provider and the permission type (delegated or application
 
 ### For Directory (Azure AD) provider
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  RoleManagement.Read.Directory, Directory.Read.All, RoleManagement.ReadWrite.Directory, Directory.ReadWrite.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | RoleManagement.Read.Directory, Directory.Read.All, RoleManagement.ReadWrite.Directory, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "unifiedroleassignment_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/unifiedroleassignment-get-permissions.md)]
 
 ### For Entitlement management provider
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  EntitlementManagement.Read.All, EntitlementManagement.ReadWrite.All  |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "unifiedroleassignment_get_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/unifiedroleassignment-get-2-permissions.md)]
 
 ## HTTP request
 

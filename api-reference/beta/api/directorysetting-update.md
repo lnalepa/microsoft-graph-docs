@@ -17,25 +17,19 @@ Update the properties of a specific directory setting object.
 
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission or permissions marked as least privileged for this API. Use a higher privileged permission or permissions [only if your app requires it](/graph/permissions-overview#best-practices-for-using-microsoft-graph-permissions). For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
 ### For all settings except the Consent Policy Settings object
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directorysetting_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directorysetting-update-permissions.md)]
 
 ### For the Consent Policy Settings object
 
 The following permissions are required to update the "Consent Policy Settings" **directorySetting** object.
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Policy.ReadWrite.Authorization    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Policy.ReadWrite.Authorization |
+<!-- { "blockType": "permissions", "name": "directorysetting_update_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directorysetting-update-2-permissions.md)]
 
 
 ## HTTP request

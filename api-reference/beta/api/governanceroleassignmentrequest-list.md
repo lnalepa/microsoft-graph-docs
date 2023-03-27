@@ -18,31 +18,22 @@ Namespace: microsoft.graph
 Retrieve a collection of [governanceRoleAssignmentRequests](../resources/governanceroleassignmentrequest.md). 
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference#privileged-access-permissions).
+Choose the permission or permissions marked as least privileged for this API. Use a higher privileged permission or permissions [only if your app requires it](/graph/permissions-overview#best-practices-for-using-microsoft-graph-permissions). For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
 ### Azure resources
 
-| Permission type | Permissions |
-|:--------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureResources |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | PrivilegedAccess.Read.AzureResources |
+<!-- { "blockType": "permissions", "name": "governanceroleassignmentrequest_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governanceroleassignmentrequest-list-permissions.md)]
 
 ### Azure AD
 
-| Permission type | Permissions |
-|:--------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureAD |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | PrivilegedAccess.Read.AzureAD |
+<!-- { "blockType": "permissions", "name": "governanceroleassignmentrequest_list_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governanceroleassignmentrequest-list-2-permissions.md)]
 
 ### Groups
 
-|Permission type | Permissions |
-|:-------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureADGroup |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | PrivilegedAccess.Read.AzureADGroup |
+<!-- { "blockType": "permissions", "name": "governanceroleassignmentrequest_list_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governanceroleassignmentrequest-list-3-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

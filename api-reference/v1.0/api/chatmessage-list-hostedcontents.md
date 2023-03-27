@@ -17,19 +17,13 @@ Retrieve the list of [chatMessageHostedContent](../resources/chatmessagehostedco
 
 ### Permissions for channel
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| ChannelMessage.Read.All |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| ChannelMessage.Read.Group*, ChannelMessage.Read.All |
+<!-- { "blockType": "permissions", "name": "chatmessage_list_hostedcontents" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessage-list-hostedcontents-permissions.md)]
 
 ### Permissions for chat
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| Chat.Read, Chat.ReadWrite|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| Chat.Read.All, Chat.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "chatmessage_list_hostedcontents_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessage-list-hostedcontents-2-permissions.md)]
 
 > **Note**: Permissions marked with * use [resource-specific consent](/microsoftteams/platform/graph-api/rsc/resource-specific-consent).
 

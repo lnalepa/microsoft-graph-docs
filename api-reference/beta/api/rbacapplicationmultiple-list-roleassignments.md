@@ -27,19 +27,13 @@ Depending on the RBAC provider and the permission type (delegated or application
 
 ### For Cloud PC provider
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  CloudPC.Read.All, CloudPC.ReadWrite.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | CloudPC.Read.All, CloudPC.ReadWrite.All  |
+<!-- { "blockType": "permissions", "name": "rbacapplicationmultiple_list_roleassignments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/rbacapplicationmultiple-list-roleassignments-permissions.md)]
 
 ### For Device management (Intune) provider
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  DeviceManagementRBAC.Read.All, DeviceManagementRBAC.ReadWrite.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | DeviceManagementRBAC.Read.All, DeviceManagementRBAC.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "rbacapplicationmultiple_list_roleassignments_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/rbacapplicationmultiple-list-roleassignments-2-permissions.md)]
 
 
 ## HTTP request
